@@ -30,11 +30,11 @@ public class Aquatico extends Animal {
 	
 	public void perfil() {
 		System.out.println(getContador());
-		System.out.println(getDataNasci());
 		System.out.println(getespecie());
-		System.out.println(getSexo());
-		System.out.println(TipoAgua);
 		System.out.println(escamas);
+		System.out.println(TipoAgua);
+		System.out.println(getDataNasci());
+		System.out.println(getSexo());
 		
 
 	}
