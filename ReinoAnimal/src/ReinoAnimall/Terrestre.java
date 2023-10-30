@@ -34,9 +34,9 @@ public class Terrestre extends Animal{
 	
 	public void perfil() {
 		System.out.println(getContador());
-		System.out.println(getDataNasci());
 		System.out.println(getespecie());
 		System.out.println(getSexo());
+		System.out.println(getDataNasci());
 		System.out.println(regiao);
 		System.out.println(pelagem);
 
