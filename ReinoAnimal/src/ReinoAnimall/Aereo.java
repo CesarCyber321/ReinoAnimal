@@ -43,6 +43,7 @@ public class Aereo extends Animal{
 		System.out.println(getDataNasci());
 		System.out.println(getespecie());
 		System.out.println(getSexo());
+		System.out.println(altitude);
 	}
 
 }
