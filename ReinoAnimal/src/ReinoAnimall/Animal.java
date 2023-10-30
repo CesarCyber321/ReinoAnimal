@@ -46,38 +46,38 @@ public class Animal {
 	 * metodos get e set
 	 */
 
-	private String getespecie() {
+	public String getespecie() {
 		return especie;
 	}
 	/**
 	 * @param especie
 	 */
 
-	private void setEspecie(String especie) {
+	public void setEspecie(String especie) {
 		this.especie = especie;
 	}
 
-	private String getSexo() {
+	public String getSexo() {
 		return sexo;
 	}
 
-	private void setSexo(String sexo) {
+	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
 
-	private String getDataNasci() {
+	public String getDataNasci() {
 		return dataNasci;
 	}
 
-	private void setDataNasci(String dataNasci) {
+	public void setDataNasci(String dataNasci) {
 		this.dataNasci = dataNasci;
 	}
 
-	private static double getContador() {
+	public static double getContador() {
 		return contador;
 	}
 
-	private void setContador(int contador) {
+	public void setContador(int contador) {
 		this.contador = contador;
 	}
 

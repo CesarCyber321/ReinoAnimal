@@ -38,8 +38,11 @@ public class Aereo extends Animal{
 	 * @param contador
 	 */
 	
-	public void perfil(double contador) {
-		contador = contador + 1;
+	public void perfil() {
+		System.out.println(getContador());
+		System.out.println(getDataNasci());
+		System.out.println(getespecie());
+		System.out.println(getSexo());
 	}
 
 }
